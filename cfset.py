@@ -5,12 +5,12 @@ Created on Thu Aug 27 20:59:09 2020
 @author: JenNeng
 """
 import nltk
-from nltk import WordNetLemmatizer
 import multiprocessing
 import string
 import pandas as pd
 import numpy as np
 from functools import partial
+from nltk import WordNetLemmatizer
 
 class ConfusionSet():
     def __init__(self):
